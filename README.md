@@ -2,6 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
 
+```
+ng new ov-angular-demo
+? Which stylesheet format would you like to use? CSS
+? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
+```
+
+This project was initialized with [Storybook](https://storybook.js.org/docs/get-started/install).
+
+```
+npx storybook@latest init
+✔ Do you want to use Compodoc for documentation? … yes
+```
+
+## Development UI components
+
+Run `npm run storybook` for a development sandbox to create UI components in isolation.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
