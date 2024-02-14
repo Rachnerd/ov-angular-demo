@@ -1,4 +1,4 @@
-<section class="card-grid">
+<section class="card-grid" *ngIf="products$ | async as products">
   <app-product
     *ngFor="let product of products"
     [title]="product.title"

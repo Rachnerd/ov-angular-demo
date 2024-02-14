@@ -1,1 +1,11 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>OV Demo</span>
+    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item routerLink="">Home</button>
+      <button mat-menu-item routerLink="products">Products</button>
+    </mat-menu>
+  </mat-toolbar-row>
+</mat-toolbar>
 <router-outlet></router-outlet>
