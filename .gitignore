@@ -44,3 +44,4 @@ Thumbs.db
 # Generated
 storybook-static
 documentation.json
+/documentation

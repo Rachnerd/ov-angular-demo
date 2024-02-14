@@ -8,7 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "storybook": "ng run ov-angular-demo:storybook",
-    "build-storybook": "ng run ov-angular-demo:build-storybook"
+    "build-storybook": "ng run ov-angular-demo:build-storybook",
+    "compodoc:build": "compodoc -p tsconfig.doc.json",
+    "compodoc:build-and-serve": "compodoc -p tsconfig.doc.json -s",
+    "compodoc:serve": "compodoc -s"
   },
   "private": true,
   "dependencies": {
